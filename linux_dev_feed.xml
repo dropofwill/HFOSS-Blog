@@ -14,7 +14,7 @@
     <link rel="alternate" href="http://dropofwill.herokuapp.com/2015/05/19/rtasklib-first-release/"/>
     <id>http://dropofwill.herokuapp.com/2015/05/19/rtasklib-first-release/</id>
     <published>2015-05-19T10:31:00-04:00</published>
-    <updated>2015-08-19T00:16:20-04:00</updated>
+    <updated>2015-08-30T19:41:08-04:00</updated>
     <author>
       <name>Will Paul</name>
     </author>
@@ -32,7 +32,7 @@
     <link rel="alternate" href="http://dropofwill.herokuapp.com/2015/05/10/packaging-ruby-gems/"/>
     <id>http://dropofwill.herokuapp.com/2015/05/10/packaging-ruby-gems/</id>
     <published>2015-05-10T11:46:00-04:00</published>
-    <updated>2015-08-19T00:16:20-04:00</updated>
+    <updated>2015-08-30T19:41:08-04:00</updated>
     <author>
       <name>Will Paul</name>
     </author>
@@ -46,7 +46,7 @@
     <link rel="alternate" href="http://dropofwill.herokuapp.com/2015/04/20/rtasklib-update/"/>
     <id>http://dropofwill.herokuapp.com/2015/04/20/rtasklib-update/</id>
     <published>2015-04-20T10:36:00-04:00</published>
-    <updated>2015-08-19T00:16:20-04:00</updated>
+    <updated>2015-08-30T19:41:08-04:00</updated>
     <author>
       <name>Will Paul</name>
     </author>
@@ -60,7 +60,7 @@
     <link rel="alternate" href="http://dropofwill.herokuapp.com/2015/04/06/rtasklib-update-ruby-and-external-tools/"/>
     <id>http://dropofwill.herokuapp.com/2015/04/06/rtasklib-update-ruby-and-external-tools/</id>
     <published>2015-04-05T22:22:00-04:00</published>
-    <updated>2015-08-19T00:16:20-04:00</updated>
+    <updated>2015-08-30T19:41:08-04:00</updated>
     <author>
       <name>Will Paul</name>
     </author>
@@ -123,7 +123,7 @@ end
     <link rel="alternate" href="http://dropofwill.herokuapp.com/2015/03/16/rtasklib-update-march-16th/"/>
     <id>http://dropofwill.herokuapp.com/2015/03/16/rtasklib-update-march-16th/</id>
     <published>2015-03-16T00:02:00-04:00</published>
-    <updated>2015-08-19T00:16:20-04:00</updated>
+    <updated>2015-08-30T19:41:08-04:00</updated>
     <author>
       <name>Will Paul</name>
     </author>
@@ -156,7 +156,7 @@ rc[:color] = 'on'
     <link rel="alternate" href="http://dropofwill.herokuapp.com/2015/03/09/task_time-and-rtasklib-updates-march-8th/"/>
     <id>http://dropofwill.herokuapp.com/2015/03/09/task_time-and-rtasklib-updates-march-8th/</id>
     <published>2015-03-08T21:10:00-04:00</published>
-    <updated>2015-08-19T00:16:20-04:00</updated>
+    <updated>2015-08-30T19:41:08-04:00</updated>
     <author>
       <name>Will Paul</name>
     </author>
@@ -226,7 +226,7 @@ Rtasklib::ParseConfig &amp;lt; ParseConfig
     <link rel="alternate" href="http://dropofwill.herokuapp.com/2015/03/02/task_time-update-march-1st/"/>
     <id>http://dropofwill.herokuapp.com/2015/03/02/task_time-update-march-1st/</id>
     <published>2015-03-01T21:16:00-05:00</published>
-    <updated>2015-08-19T00:16:20-04:00</updated>
+    <updated>2015-08-30T19:41:08-04:00</updated>
     <author>
       <name>Will Paul</name>
     </author>
@@ -279,7 +279,7 @@ Rtasklib::ParseConfig &amp;lt; ParseConfig
     <link rel="alternate" href="http://dropofwill.herokuapp.com/2015/02/22/a-comparison-of-task-warrior-wrappers/"/>
     <id>http://dropofwill.herokuapp.com/2015/02/22/a-comparison-of-task-warrior-wrappers/</id>
     <published>2015-02-22T15:54:00-05:00</published>
-    <updated>2015-08-19T00:16:20-04:00</updated>
+    <updated>2015-08-30T19:41:08-04:00</updated>
     <author>
       <name>Will Paul</name>
     </author>
@@ -419,7 +419,7 @@ Rtasklib::ParseConfig &amp;lt; ParseConfig
     <link rel="alternate" href="http://dropofwill.herokuapp.com/2015/02/16/taskwarrior-timesheet-plugin-plan/"/>
     <id>http://dropofwill.herokuapp.com/2015/02/16/taskwarrior-timesheet-plugin-plan/</id>
     <published>2015-02-16T14:36:00-05:00</published>
-    <updated>2015-08-19T00:16:20-04:00</updated>
+    <updated>2015-08-30T19:41:08-04:00</updated>
     <author>
       <name>Will Paul</name>
     </author>
@@ -478,7 +478,7 @@ Rtasklib::ParseConfig &amp;lt; ParseConfig
     <link rel="alternate" href="http://dropofwill.herokuapp.com/2015/02/13/commnad-line-tools-with-ruby/"/>
     <id>http://dropofwill.herokuapp.com/2015/02/13/commnad-line-tools-with-ruby/</id>
     <published>2015-02-13T12:16:00-05:00</published>
-    <updated>2015-08-19T00:16:20-04:00</updated>
+    <updated>2015-08-30T19:41:08-04:00</updated>
     <author>
       <name>Will Paul</name>
     </author>
@@ -563,7 +563,7 @@ $ some_example
     <link rel="alternate" href="http://dropofwill.herokuapp.com/2015/02/05/source-code-review-of-mpd-and-mpd-wrappers/"/>
     <id>http://dropofwill.herokuapp.com/2015/02/05/source-code-review-of-mpd-and-mpd-wrappers/</id>
     <published>2015-02-05T16:30:00-05:00</published>
-    <updated>2015-08-19T00:16:20-04:00</updated>
+    <updated>2015-08-30T19:41:08-04:00</updated>
     <author>
       <name>Will Paul</name>
     </author>
