@@ -11,8 +11,8 @@
   </author>
   <entry>
     <title>rtasklib first release</title>
-    <link rel="alternate" href="http://dropofwill.herokuapp.com/blog/2015/rtasklib-first-release/"/>
-    <id>http://dropofwill.herokuapp.com/blog/2015/rtasklib-first-release/</id>
+    <link rel="alternate" href="http://dropofwill.herokuapp.com/2015/rtasklib-first-release/"/>
+    <id>http://dropofwill.herokuapp.com/2015/rtasklib-first-release/</id>
     <published>2015-05-19T10:31:00-04:00</published>
     <updated>2015-08-30T19:41:08-04:00</updated>
     <author>
@@ -29,8 +29,8 @@
   </entry>
   <entry>
     <title>Packaging Ruby gems</title>
-    <link rel="alternate" href="http://dropofwill.herokuapp.com/blog/2015/packaging-ruby-gems/"/>
-    <id>http://dropofwill.herokuapp.com/blog/2015/packaging-ruby-gems/</id>
+    <link rel="alternate" href="http://dropofwill.herokuapp.com/2015/packaging-ruby-gems/"/>
+    <id>http://dropofwill.herokuapp.com/2015/packaging-ruby-gems/</id>
     <published>2015-05-10T11:46:00-04:00</published>
     <updated>2015-08-30T19:41:08-04:00</updated>
     <author>
@@ -43,8 +43,8 @@
   </entry>
   <entry>
     <title>rtasklib update</title>
-    <link rel="alternate" href="http://dropofwill.herokuapp.com/blog/2015/rtasklib-update/"/>
-    <id>http://dropofwill.herokuapp.com/blog/2015/rtasklib-update/</id>
+    <link rel="alternate" href="http://dropofwill.herokuapp.com/2015/rtasklib-update/"/>
+    <id>http://dropofwill.herokuapp.com/2015/rtasklib-update/</id>
     <published>2015-04-20T10:36:00-04:00</published>
     <updated>2015-08-30T19:41:08-04:00</updated>
     <author>
@@ -57,8 +57,8 @@
   </entry>
   <entry>
     <title>rtasklib update: Ruby and external tools</title>
-    <link rel="alternate" href="http://dropofwill.herokuapp.com/blog/2015/rtasklib-update-ruby-and-external-tools/"/>
-    <id>http://dropofwill.herokuapp.com/blog/2015/rtasklib-update-ruby-and-external-tools/</id>
+    <link rel="alternate" href="http://dropofwill.herokuapp.com/2015/rtasklib-update-ruby-and-external-tools/"/>
+    <id>http://dropofwill.herokuapp.com/2015/rtasklib-update-ruby-and-external-tools/</id>
     <published>2015-04-05T22:22:00-04:00</published>
     <updated>2015-08-30T19:41:08-04:00</updated>
     <author>
@@ -120,8 +120,8 @@ end
   </entry>
   <entry>
     <title>rtasklib update march 16th</title>
-    <link rel="alternate" href="http://dropofwill.herokuapp.com/blog/2015/rtasklib-update-march-16th/"/>
-    <id>http://dropofwill.herokuapp.com/blog/2015/rtasklib-update-march-16th/</id>
+    <link rel="alternate" href="http://dropofwill.herokuapp.com/2015/rtasklib-update-march-16th/"/>
+    <id>http://dropofwill.herokuapp.com/2015/rtasklib-update-march-16th/</id>
     <published>2015-03-16T00:02:00-04:00</published>
     <updated>2015-08-30T19:41:08-04:00</updated>
     <author>
@@ -153,8 +153,8 @@ rc[:color] = 'on'
   </entry>
   <entry>
     <title>task_time and rtasklib updates March 8th</title>
-    <link rel="alternate" href="http://dropofwill.herokuapp.com/blog/2015/task_time-and-rtasklib-updates-march-8th/"/>
-    <id>http://dropofwill.herokuapp.com/blog/2015/task_time-and-rtasklib-updates-march-8th/</id>
+    <link rel="alternate" href="http://dropofwill.herokuapp.com/2015/task_time-and-rtasklib-updates-march-8th/"/>
+    <id>http://dropofwill.herokuapp.com/2015/task_time-and-rtasklib-updates-march-8th/</id>
     <published>2015-03-08T21:10:00-04:00</published>
     <updated>2015-08-30T19:41:08-04:00</updated>
     <author>
@@ -223,8 +223,8 @@ Rtasklib::ParseConfig &amp;lt; ParseConfig
   </entry>
   <entry>
     <title>task_time update March 1st</title>
-    <link rel="alternate" href="http://dropofwill.herokuapp.com/blog/2015/task_time-update-march-1st/"/>
-    <id>http://dropofwill.herokuapp.com/blog/2015/task_time-update-march-1st/</id>
+    <link rel="alternate" href="http://dropofwill.herokuapp.com/2015/task_time-update-march-1st/"/>
+    <id>http://dropofwill.herokuapp.com/2015/task_time-update-march-1st/</id>
     <published>2015-03-01T21:16:00-05:00</published>
     <updated>2015-08-30T19:41:08-04:00</updated>
     <author>
@@ -276,8 +276,8 @@ Rtasklib::ParseConfig &amp;lt; ParseConfig
   </entry>
   <entry>
     <title>A Comparison of Task Warrior Wrappers</title>
-    <link rel="alternate" href="http://dropofwill.herokuapp.com/blog/2015/a-comparison-of-task-warrior-wrappers/"/>
-    <id>http://dropofwill.herokuapp.com/blog/2015/a-comparison-of-task-warrior-wrappers/</id>
+    <link rel="alternate" href="http://dropofwill.herokuapp.com/2015/a-comparison-of-task-warrior-wrappers/"/>
+    <id>http://dropofwill.herokuapp.com/2015/a-comparison-of-task-warrior-wrappers/</id>
     <published>2015-02-22T15:54:00-05:00</published>
     <updated>2015-08-30T19:41:08-04:00</updated>
     <author>
@@ -416,8 +416,8 @@ Rtasklib::ParseConfig &amp;lt; ParseConfig
   </entry>
   <entry>
     <title>Taskwarrior timesheet plugin plan</title>
-    <link rel="alternate" href="http://dropofwill.herokuapp.com/blog/2015/taskwarrior-timesheet-plugin-plan/"/>
-    <id>http://dropofwill.herokuapp.com/blog/2015/taskwarrior-timesheet-plugin-plan/</id>
+    <link rel="alternate" href="http://dropofwill.herokuapp.com/2015/taskwarrior-timesheet-plugin-plan/"/>
+    <id>http://dropofwill.herokuapp.com/2015/taskwarrior-timesheet-plugin-plan/</id>
     <published>2015-02-16T14:36:00-05:00</published>
     <updated>2015-08-30T19:41:08-04:00</updated>
     <author>
@@ -475,8 +475,8 @@ Rtasklib::ParseConfig &amp;lt; ParseConfig
   </entry>
   <entry>
     <title>Writing Command Line Tools with Ruby</title>
-    <link rel="alternate" href="http://dropofwill.herokuapp.com/blog/2015/commnad-line-tools-with-ruby/"/>
-    <id>http://dropofwill.herokuapp.com/blog/2015/commnad-line-tools-with-ruby/</id>
+    <link rel="alternate" href="http://dropofwill.herokuapp.com/2015/commnad-line-tools-with-ruby/"/>
+    <id>http://dropofwill.herokuapp.com/2015/commnad-line-tools-with-ruby/</id>
     <published>2015-02-13T12:16:00-05:00</published>
     <updated>2015-08-30T19:41:08-04:00</updated>
     <author>
@@ -560,8 +560,8 @@ $ some_example
   </entry>
   <entry>
     <title>Initial thoughts for an MPD project</title>
-    <link rel="alternate" href="http://dropofwill.herokuapp.com/blog/2015/source-code-review-of-mpd-and-mpd-wrappers/"/>
-    <id>http://dropofwill.herokuapp.com/blog/2015/source-code-review-of-mpd-and-mpd-wrappers/</id>
+    <link rel="alternate" href="http://dropofwill.herokuapp.com/2015/source-code-review-of-mpd-and-mpd-wrappers/"/>
+    <id>http://dropofwill.herokuapp.com/2015/source-code-review-of-mpd-and-mpd-wrappers/</id>
     <published>2015-02-05T16:30:00-05:00</published>
     <updated>2015-08-30T19:41:08-04:00</updated>
     <author>
