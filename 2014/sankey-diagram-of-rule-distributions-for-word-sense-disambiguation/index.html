@@ -7,7 +7,7 @@
 
     <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/feed.xml" />
 
-    <link href="/blog/stylesheets/main-10699714.css" rel="stylesheet" type="text/css" />
+    <link href="../../blog/stylesheets/main-10699714.css" rel="stylesheet" type="text/css" />
 
     <!-- Viewport declarations -->
     <meta name="viewport" content="width=533">
@@ -80,7 +80,7 @@ Confusion matrices for both cases. The rows are what the answers should have bee
 
 <p>One major assumption in this algorithm is that higher likelihood will have better results, how good is this assumption? We can’t tell that from the confusion matrix, but with the Sankey diagram every incorrect answer can be traced back to the rule’s likelihood that made a mistake. Here we can see that no rule with a likelihood greater than 5 ever makes a mistake in both cases, which shows that the assumption is not only pretty good, but also consistent across use cases.</p>
 
-<p><img alt="Reign-Gold tree as a first attempt" style="width: 66%; float: right" src="/blog/blog/images/first-attempt-8866e9c4.svg" /></p>
+<p><img alt="Reign-Gold tree as a first attempt" style="width: 66%; float: right" src="../../blog/images/first-attempt-8866e9c4.svg" /></p>
 
 <p>Another takeaway is how few rules we have for the sake* case and also how low in the decision list those that exist are. This shows an non-obvious limitation of the algorithm, it needs similar distributions of data. Even though this algorithm performed “better” in overall accuracy then the bass case, it still only got 50% of the sake as in wine cases correct.</p>
 
@@ -150,9 +150,9 @@ path.chord {
 <script src="http://d3js.org/colorbrewer.v1.min.js"></script>
 
 <!--The D3 plugin for Sankey diagrams-->
-<script src="/blog/javascripts/sankey-f1b10ec2.js" type="text/javascript"></script>
+<script src="../../blog/javascripts/sankey-f1b10ec2.js" type="text/javascript"></script>
 
-<script src="/blog/javascripts/sankey_has_many-a8fb724f.js" type="text/javascript"></script>
+<script src="../../blog/javascripts/sankey_has_many-a8fb724f.js" type="text/javascript"></script>
 
 <!-- Render nice latex formulas -->
 <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"> </script>
