@@ -1,0 +1,199 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv='X-UA-Compatible' content='IE=edge;chrome=1' />
+    <title>Drop of Will - Initial Review of Copyleft and the GNU General Public License</title>
+
+    <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/feed.xml" />
+
+    <link href="/blog/stylesheets/main-10699714.css" rel="stylesheet" type="text/css" />
+
+    <!-- Viewport declarations -->
+    <meta name="viewport" content="width=533">
+    <meta name="viewport" content="initial-scale=0.6">
+  </head>
+  <body>
+
+    <header class="hero">
+<a href="/blog">        <h1>
+          &lambda;will.paul
+        </h1>
+</a>      <hr>
+    </header>
+
+    <div class="typeset" role="main">
+
+        <article class="article">
+    <h1>Initial Review of Copyleft and the GNU General Public License</h1>
+		<p>The first chapter of a comprehensive guide to how the GPL works. This first chapter explains what free software is according to the FSF and why you should care, at a community and a global level. It uses legal jargon where necessary and definitely tries to make a point while attempting to give a non-biased view of the free software landscape.</p>
+
+<blockquote>
+  <p><strong>Who:</strong></p>
+
+  <ul>
+    <li>
+      <p><a href="http://en.wikipedia.org/wiki/Bradley_M._Kuhn">Bradley M. Kuhn</a> (free software activist, president of Software Freedom Conservancy, previously worked for the SFLC and FSF),</p>
+    </li>
+    <li>
+      <p><a href="http://www.martindale.com/Anthony-K-Sebro-Jr/2161338-lawyer.htm">Anthony K. Sebro, Jr.</a> (Ggeneral counsel at the Software Freedom Conservancy),</p>
+    </li>
+    <li>
+      <p><a href="http://ossguy.com/?page_id=2">Denver Gingerich</a> (FLOSS license compliance engineer at the Software Freedom Conservancy),</p>
+    </li>
+    <li>
+      <p><a href="https://www.fsf.org">Free Software Foundation</a></p>
+    </li>
+    <li>
+      <p><a href="https://softwarefreedom.org">Software Freedom Law Center</a></p>
+    </li>
+  </ul>
+
+  <p><strong>What:</strong> A comprehensive (we’re talking 140+ pages) guide to how the GPL works, in particular I’ve read the first chapter on entitled <em>What is Software Freedom?</em></p>
+
+  <p><strong>Where:</strong> The whole guide is available on the <a href="http://bizlegfoss-ritigm.rhcloud.com/static/books/comprehensive-gpl-guide.pdf">bizleg course web site</a></p>
+
+  <p><strong>When:</strong> First version was released in 2003, but has had consistent updates from then until the latest change in 2014.</p>
+</blockquote>
+
+<h2 id="the-good">The Good</h2>
+
+<ul>
+  <li>
+    <p>Lessig’s quote about law in a free vs. closed society was a neat insight into a how lawyers think about open source. I’ve never thought about law as open source and how this effects the freedom in a society. I think this is an excellent way to introduce the concept of open source (through analogy) to someone who may be reluctant or confused about it.</p>
+  </li>
+  <li>
+    <p>We were promised a bit more legal-ese for this reading and while yes, there were direct references to various laws and statutes (whose verbiage itself went over my head), the text as a whole wasn’t that difficult to read.</p>
+  </li>
+  <li>
+    <p>I liked that it dove into the difficulties with Public Domain, which answered a lot of questions I’ve had with it. I looked a little further into the problem on the OSI mailing list and a lot of the problems occur in the countries of Germany, the UK, and Japan, all of which are big players in the software industry.</p>
+  </li>
+</ul>
+
+<h2 id="the-bad">The Bad</h2>
+
+<ul>
+  <li>
+    <p>It puts forth the following argument against permissive licenses (particularly just releasing to the public domain, but it applies to all permissive licenses):</p>
+
+    <blockquote>
+      <p>However, over time, some entities will choose to proprietarize their modified versions. The public domain body of software feeds the proprietary software. The public commons disappears, because fewer and fewer entities have an incentive to contribute back to the commons. They know that any of their competitors can proprietarize their enhancements. Over time, almost no interesting work is left in the public domain, because nearly all new work is done by proprietarization.</p>
+    </blockquote>
+
+    <p>This is of course a good reason to use a copyleft license, <em>if this is at all a likely situation</em> for your project. A point that don’t even admit is a possibility. The FSF and the like often view the world of open source as a war zone, because of Stallman’s previous experiences in the 70s and 80s, but that does not necessarily reflect all Open Source communities that exist today. For example in the world of interpreted languages are open by default (as in binaries don’t exist, not necessarily free as in freedom) and even the biggest players in the industry open up their source code. So in cases like this the other restrictive problems that the GPL creates are more of an issue than they solve.</p>
+  </li>
+</ul>
+
+<h2 id="the-questions">The Questions</h2>
+
+<ul>
+  <li>
+    <p>Does GPL protect against future changes? I don’t see how it could. For example, Some large corporation forks a GPL’d project, but decides that they don’t want to license their particular changes as GPL, couldn’t they simply release the previous source code with the project, but keep their changes secret? If modifications are somehow protected by the GPL, what constitutes a ‘modification’, if I for instance abstracted these modifications out into a separate repo, does that make my modifications no longer a derivative work?</p>
+  </li>
+  <li>
+    <p>I still don’t really understand license compatibility. The FSF has a large list of licenses it considers compatible with the GPL, but does this mean I can fork a GPL project, make changes and release it under the simple BSD, because they are compatible licenses?</p>
+  </li>
+  <li>
+    <p>Why are some FSF GPL compatible licenses not recognized as free software by the OSI? Are their approval processes more strict? I was looking at the OSI mailing list on CC0 process and it seems like they got hung up on a patent clause? I really can’t parse what the problem is though:</p>
+  </li>
+</ul>
+
+<blockquote>
+  <p>a. No trademark or patent rights held by Affirmer are waived, abandoned, surrendered, licensed or otherwise affected by this document.</p>
+
+  <p>b. Affirmer offers the Work as-is and makes no representations or warranties of any kind concerning the Work, express, implied, statutory or otherwise, including without limitation warranties of title, merchantability, fitness for a particular purpose, non infringement, or the absence of latent or other defects, accuracy, or the present or absence of errors, whether or not discoverable, all to the greatest extent permissible under applicable law.</p>
+
+  <p>c. Affirmer disclaims responsibility for clearing rights of other persons that may apply to the Work or any use thereof, including without limitation any person’s Copyright and Related Rights in the Work. Further, Affirmer disclaims responsibility for obtaining any necessary consents, permissions or other rights required for any use of the Work.</p>
+
+  <p>d. Affirmer understands and acknowledges that Creative Commons is not a party to this document and has no duty or obligation with respect to this CC0 or use of the Work.</p>
+</blockquote>
+
+<h2 id="final-review">Final Review</h2>
+
+<p>It was good, but I really would be more interested getting further into the book especially the third part where they talk about real case studies and the stuff about binary distribution and patents are things that I still don’t really have a good grasp on. Overall I thought it was a better intro than the FOSS Primer simply because it went into more detail and seemed more aware of its bias, at least from this permissive license fan’s perspective.</p>
+
+
+    <div class="article-comments">
+			<div id="disqus_thread">
+	
+	<script async="true" src="http://dropofwill.disqus.com/embed.js" type="text/javascript"></script>
+	<noscript>
+		<a>(href="http://#{short_name}.disqus.com/embed.js?url=ref") View comments.</a>
+	</noscript>
+</div>
+
+    </div>
+  </article>
+
+      <hr>
+
+      <aside>
+        <h2>Recent Articles</h2>
+        <ol>
+            <li><a href="/blog/2015/establishing-narrative-control-in-freers-high-fidelity/">Establishing narrative control in Freer's High Fidelity</a> <span>Sep 30</span></li>
+            <li><a href="/blog/2015/a-scanner-orderly-the-smart-coaster/">A Scanner Orderly: The smart coaster</a> <span>May 20</span></li>
+            <li><a href="/blog/2015/rtasklib-first-release/">rtasklib first release</a> <span>May 19</span></li>
+            <li><a href="/blog/2015/meetup-at-ibm-in-austin-tx/">Meetup at IBM in Austin, TX</a> <span>May 15</span></li>
+            <li><a href="/blog/2015/packaging-ruby-gems/">Packaging Ruby gems</a> <span>May 10</span></li>
+            <li><a href="/blog/2015/rtasklib-update/">rtasklib update</a> <span>Apr 20</span></li>
+            <li><a href="/blog/2015/playing-power-chords-on-an-arduino/">Playing power chords on an Arduino</a> <span>Apr 14</span></li>
+            <li><a href="/blog/2015/vmware-gpl-case-update/">VMware GPL case update</a> <span>Apr  6</span></li>
+            <li><a href="/blog/2015/rtasklib-update-ruby-and-external-tools/">rtasklib update: Ruby and external tools</a> <span>Apr  6</span></li>
+            <li><a href="/blog/2015/lit-review-of-the-quantifying-the-value-of-open-source-hardware-development/">Review of: the Quantifying the Value of Open Source Hardware Development</a> <span>Mar 31</span></li>
+        </ol>
+
+        <h2>Tags</h2>
+        <ol class="columnize">
+            <li><a href="/blog/tags/linuxdev/">LinuxDev (11)</a></li>
+            <li><a href="/blog/tags/task_time/">task_time (4)</a></li>
+            <li><a href="/blog/tags/physical-computing/">Physical Computing (5)</a></li>
+            <li><a href="/blog/tags/bizleg/">BizLeg (21)</a></li>
+            <li><a href="/blog/tags/arduino/">Arduino (5)</a></li>
+            <li><a href="/blog/tags/hfoss/">HFOSS (4)</a></li>
+            <li><a href="/blog/tags/bugfix/">Bugfix (1)</a></li>
+            <li><a href="/blog/tags/javascript/">JavaScript (3)</a></li>
+            <li><a href="/blog/tags/c/">C (1)</a></li>
+            <li><a href="/blog/tags/data-viz/">Data Viz (3)</a></li>
+            <li><a href="/blog/tags/ruby/">Ruby (14)</a></li>
+            <li><a href="/blog/tags/middleman/">Middleman (3)</a></li>
+            <li><a href="/blog/tags/blog/">Blog (2)</a></li>
+            <li><a href="/blog/tags/deployment/">Deployment (1)</a></li>
+            <li><a href="/blog/tags/film/">Film (1)</a></li>
+            <li><a href="/blog/tags/cinematography/">Cinematography (1)</a></li>
+            <li><a href="/blog/tags/reviews/">Reviews (2)</a></li>
+            <li><a href="/blog/tags/trademark/">Trademark (2)</a></li>
+            <li><a href="/blog/tags/d3/">D3 (1)</a></li>
+            <li><a href="/blog/tags/gpl/">GPL (2)</a></li>
+            <li><a href="/blog/tags/licenses/">Licenses (4)</a></li>
+            <li><a href="/blog/tags/review/">Review (8)</a></li>
+            <li><a href="/blog/tags/legal/">Legal (1)</a></li>
+            <li><a href="/blog/tags/econ/">Econ (2)</a></li>
+            <li><a href="/blog/tags/meetup/">Meetup (1)</a></li>
+            <li><a href="/blog/tags/wearables/">Wearables (2)</a></li>
+            <li><a href="/blog/tags/mouse-rat/">Mouse Rat (2)</a></li>
+            <li><a href="/blog/tags/vim/">Vim (3)</a></li>
+            <li><a href="/blog/tags/config/">Config (3)</a></li>
+            <li><a href="/blog/tags/business/">Business (1)</a></li>
+            <li><a href="/blog/tags/rtasklib/">rtasklib (7)</a></li>
+            <li><a href="/blog/tags/patents/">Patents (2)</a></li>
+            <li><a href="/blog/tags/foss/">FOSS (1)</a></li>
+            <li><a href="/blog/tags/remix/">Remix (2)</a></li>
+            <li><a href="/blog/tags/ip/">IP (1)</a></li>
+            <li><a href="/blog/tags/processing/">Processing (1)</a></li>
+            <li><a href="/blog/tags/nlp/">NLP (2)</a></li>
+            <li><a href="/blog/tags/semantics/">Semantics (2)</a></li>
+            <li><a href="/blog/tags/video/">Video (1)</a></li>
+            <li><a href="/blog/tags/talk/">Talk (1)</a></li>
+            <li><a href="/blog/tags/functional-programming/">Functional Programming (1)</a></li>
+            <li><a href="/blog/tags/python/">Python (1)</a></li>
+        </ol>
+
+        <h2>By Year</h2>
+        <ol>
+            <li><a href="/blog/2015/">2015 (32)</a></li>
+            <li><a href="/blog/2014/">2014 (16)</a></li>
+        </ol>
+      </aside>
+    </div>
+  </body>
+</html>
