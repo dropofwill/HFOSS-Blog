@@ -223,24 +223,6 @@ A -&amp;gt; S  "Done"
 </content>
   </entry>
   <entry>
-    <title>Meetup at IBM in Austin, TX</title>
-    <link rel="alternate" href="http://dropofwill.herokuapp.com/2015/meetup-at-ibm-in-austin-tx/"/>
-    <id>http://dropofwill.herokuapp.com/2015/meetup-at-ibm-in-austin-tx/</id>
-    <published>2015-05-14T22:15:00-04:00</published>
-    <updated>2015-08-30T19:41:08-04:00</updated>
-    <author>
-      <name>Will Paul</name>
-    </author>
-    <content type="html">&lt;p&gt;For this Spring break 6 honors students from GCCIS (the computing school) at RIT visited Austin, TX. We met with 6 local tech companies to learn a little bit about what they do and what its like to work in their company and domain. One of these was IBM, specifically we met with the researchers, engineers, and designers that worked on Watson. As a language science minor this was probably the coolest part of the trip for me personally.&lt;/p&gt;
-
-&lt;p&gt;One cool part about visiting Watson Labs was that we got to sit-in on one of their biweekly tech meetups where they bring in someone from outside the lab (but usually within the company) to talk a little bit about some technology they were using or built that might be useful to the team. The week we were there was especially cool because they brought in somebody from another office to talk about the open source iPython notebooks and their work around them.&lt;/p&gt;
-
-&lt;p&gt;Basically this guys team was working on a system that made iPython notebooks more enterprise/collaboration ready. Basically they created a Google Docs/Drive like interface that made it easier to distribute and collaborate on a notebook, even for people without Git knowledge. On top of that they made a system that makes it easier to reuse code across notebooks and import IBM specific modules (like hooking it up to Watson). Currently they are working on creating a similar system for Scala/Java.&lt;/p&gt;
-
-&lt;p&gt;Unfortunately it sounded like they were only ‘open sourcing’ it to the IBM community until it was completely ‘ready’. It sounded like they wanted to make money off of the cloud infrastructure around it and once that was released they were going to also release the source code so that anyone could setup their own instance.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
     <title>Packaging Ruby gems</title>
     <link rel="alternate" href="http://dropofwill.herokuapp.com/2015/packaging-ruby-gems/"/>
     <id>http://dropofwill.herokuapp.com/2015/packaging-ruby-gems/</id>
@@ -355,20 +337,6 @@ A -&amp;gt; S  "Done"
 
 &lt;p&gt;Since that wasn’t getting anywhere we decided to pivot to something else that used multiple sounds at once. Supposedly the Arduino Uno has 3 timers, but whenever we tried to use the third one it would crash, so we were limited to two tones at a time. This left us with the dyads, the most obvious of which were power chords. We tried a few different progressions, but the one you see in the video is A5-D5-E5. The way it works is if you press just one pad it plays the root note of the chord, but when you tap a second pad it plays the fifth as well (to form the power chord).&lt;/p&gt;
 
-</content>
-  </entry>
-  <entry>
-    <title>VMware GPL case update</title>
-    <link rel="alternate" href="http://dropofwill.herokuapp.com/2015/vmware-gpl-case-update/"/>
-    <id>http://dropofwill.herokuapp.com/2015/vmware-gpl-case-update/</id>
-    <published>2015-04-06T15:49:00-04:00</published>
-    <updated>2015-08-30T19:41:08-04:00</updated>
-    <author>
-      <name>Will Paul</name>
-    </author>
-    <content type="html">&lt;p&gt;In case you haven’t heard the SFC is supporting Christoph Hellwig in a lawsuit against VMware ESXi, claiming they aren’t releasing work that is derivative of the Linux kernel. The best way to get up to speed is probably the &lt;a href="https://sfconservancy.org/linux-compliance/vmware-lawsuit-faq.html"&gt;FAQ on the SFC’s website&lt;/a&gt;, keeping in mind of course that this is just one side of the story. There are a couple of reasons why this is an interesting case: 1) GPL enforcement cases are, perhaps surprisingly, rare, 2) it deals with a clause in the GPL on derivative work that has yet to be established by any previous litigation, so this case will be precedent setting, and 3) its happening in Germany, which has unique laws surrounding copyright.&lt;/p&gt;
-
-&lt;p&gt;So no matter what your opinion on the GPL, you understand that this case is an important one to follow. For personal projects I tend to default to the most open license and use more restrictive (“free”) licenses only when I can be convinced that they are worthwhile (which is almost never with the type of work/communities I’m involved with). That said, while I really dislike that the GPL exists (it’s a hack, restricts the software commons, wastes money on enforcement), &lt;a href="http://gondwanaland.com/mlog/2015/03/05/gpl-lovers-haters-exploiters-enforce/"&gt;Mike Linksvayer convinced me that in this case its worthwile to support it&lt;/a&gt;. I highly recommend reading his article, as he is on the SFC board and has some insightful ideas that he admits are pretty controversial even to the SFC.&lt;/p&gt;
 </content>
   </entry>
   <entry>
@@ -1025,54 +993,6 @@ Rtasklib::ParseConfig &amp;lt; ParseConfig
 </content>
   </entry>
   <entry>
-    <title>GPL and Derivative Work</title>
-    <link rel="alternate" href="http://dropofwill.herokuapp.com/2015/gpl-and-derivative-work/"/>
-    <id>http://dropofwill.herokuapp.com/2015/gpl-and-derivative-work/</id>
-    <published>2015-02-22T17:16:00-05:00</published>
-    <updated>2015-08-30T19:41:08-04:00</updated>
-    <author>
-      <name>Will Paul</name>
-    </author>
-    <content type="html">&lt;p&gt;For the answers I turned first to the internet, which lead me to a lot of conflicting opinions on the subject (see &lt;a href="http://en.wikipedia.org/wiki/GNU_General_Public_License#Compatibility_and_multi-licensing"&gt;1&lt;/a&gt; and &lt;a href="http://www.rosenlaw.com/lj19.htm"&gt;2&lt;/a&gt; for example). I then turned to my non-lawyer, but Business and Legal Professor Remy DeCausemaker, he thought that since no changes would be made and it was dynamically linked it wouldn’t be problematic, but that to get a real answer I should turn to what the lawyers of FSF have to say on the subject in the &lt;a href="http://bizlegfoss-ritigm.rhcloud.com/static/books/comprehensive-gpl-guide.pdf"&gt;Comprehensive GPL Guide&lt;/a&gt; to be sure. Luckily there is a whole chapter in the Guide solely on the topic of derivative work (chapter 4, page 19. So let’s dive in.&lt;/p&gt;
-
-&lt;h2 id="derivative-works-statute-and-case-law"&gt;Derivative Works: Statute and Case Law&lt;/h2&gt;
-
-&lt;p&gt;What does the GPL actually say on the matter? Well, it leaves it almost entirely up to case law stating:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;a ‘work based on the Program’ means either the Program or &lt;strong&gt;any derivative work under copyright law.&lt;/strong&gt;”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Emphasis mine. As it turns out the answer to this question depends on the court you ask it in, from the broadest definition in the Second Circuit (also adopted by the Fifth, Tenth, and Eleventh Circuits), to the narrower versions in the First and Ninth, to the undefined behavior in a number of other courts. How can something so fundamental, be so ambiguous to the court system? Well, as it turns out the Copyright Act does not provide all that much in the way of guidance leaving a lot up for interpretation:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;A “computer program” is a set of statements or instructions to be used directly or indirectly in a computer in order to bring about a certain result.&lt;/p&gt;
-
-  &lt;p&gt;A “derivative work” is a work based upon one or more preexisting works, such as a translation, musical arrangement, dramatization, fictionalization, motion picture version, sound recording, art reproduction, abridgment, condensation, or any other form in which a work may be recast, transformed, or adapted. A work consisting of editorial revisions, annotations, elaborations, or other modifications which, as a whole, represent an original work of authorship, is a “derivative work.”&lt;/p&gt;
-
-  &lt;p&gt;In no case does copyright protection for an original work of authorship extend to any idea, procedure, process, system, method of operation, concept, principle, or discovery, regardless of the form in which it is described, explained, illustrated, or embodied in such work.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id="the-most-broad-definition-of-derivative-the-afc-test"&gt;The Most Broad Definition of Derivative: The AFC Test&lt;/h2&gt;
-
-&lt;p&gt;The AFC Test (Abstract, Filter, and Comparison) was created by the Second Circuit court, at a high level the AFC test is the process of Abstracting a program out into its constituent parts, then Filtering out material that are unprotectable (e.g. public domain or unrelated to copyright, see the third clause of the Copyright Act quoted above), and then finally Comparing the two programs at this level to see if they are in fact derivative. Ultimately not much is thrown out in the filtering step in the case of software and they simply look at the comparison and decide whether the similarities are “substantial” enough to make the work derivative or not.&lt;/p&gt;
-
-&lt;h2 id="a-narrower-approach-the-analytic-dissection-test"&gt;A Narrower Approach: The Analytic Dissection Test&lt;/h2&gt;
-
-&lt;p&gt;The Analytic Dissection Test was created by the Ninth Circuit to determine whether one piece of &lt;em&gt;software&lt;/em&gt; is derivative of the other. This approach first requires the identification of the areas of similarities in the programs, then filters out the unprotectable parts (as in the AFC). After this the court decides whether each feature of contention is given “thin” or “broad” protection. Thin is given to items that are only copyrightable because of their “alignment or presentation” whereas broad protection is given to items which are copyrightable as expression. In other words thin items are only protected if they were basically copy-pasted while the expression of (“substantially similar”) broad items is also protected.&lt;/p&gt;
-
-&lt;h2 id="further-in-an-even-narrower-approach"&gt;Further in, an even Narrower Approach&lt;/h2&gt;
-
-&lt;p&gt;The First Circuit takes the position that the other courts application of the AFC is too loose when applied to software and claim that “method of operation” applies to any means by which users interact with a computer and thus were not protectable under copyright. This means that for example that the Java API was not copyrightable because it was considered a “method of operation”.&lt;/p&gt;
-
-&lt;p&gt;Several courts haven’t declared what definition they will use in such a case, but many lawyers believe they would default to the AFC test based on its wide use.&lt;/p&gt;
-
-&lt;h2 id="left-hanging"&gt;Left hanging&lt;/h2&gt;
-
-&lt;p&gt;The guide ends the chapter with a few examples and then kind of says that derivative work is not that big of an issue, and while this is an exciting legal grey area, that it’s not really a big issue since the GPL offers the explicit right to derivatives to everyone, as long as they also license it under the GPL. Which is kind of a disappointing response to be honest. If this isn’t such a big issue should I feel safe just using GPL projects wherever I please? I’ll keep looking into this further, but until then I haven’t really found a clear answer.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
     <title>A Comparison of Task Warrior Wrappers</title>
     <link rel="alternate" href="http://dropofwill.herokuapp.com/2015/a-comparison-of-task-warrior-wrappers/"/>
     <id>http://dropofwill.herokuapp.com/2015/a-comparison-of-task-warrior-wrappers/</id>
@@ -1412,34 +1332,6 @@ Rtasklib::ParseConfig &amp;lt; ParseConfig
 </content>
   </entry>
   <entry>
-    <title>Thoughts on some GPL Compliance Case Studies: Bortez GCC Modifications</title>
-    <link rel="alternate" href="http://dropofwill.herokuapp.com/2015/thoughts-on-some-gpl-compliance-case-studies/"/>
-    <id>http://dropofwill.herokuapp.com/2015/thoughts-on-some-gpl-compliance-case-studies/</id>
-    <published>2015-02-18T21:24:00-05:00</published>
-    <updated>2015-08-30T19:41:08-04:00</updated>
-    <author>
-      <name>Will Paul</name>
-    </author>
-    <content type="html">&lt;p&gt;One of &lt;a href="2015/02/06/initial-review-of-copyleft-and-the-gnu-general-public-license.html.markdown"&gt;my main problems&lt;/a&gt; with our first reading out of &lt;a href="http://bizlegfoss-ritigm.rhcloud.com/static/books/comprehensive-gpl-guide.pdf"&gt;the Comprehensive GPL Guide&lt;/a&gt; was that the first section never motivated itself with some examples. Luckily in the last section (starting at page 92) they go over some real world examples of enforcing the terms of the GPL and how to go about it (from the FSF’s perspective). For this post I want to look at Chapter 22, which talks about the FSF’s approach with the software company Bortez.&lt;/p&gt;
-
-&lt;h2 id="the-setup"&gt;The setup&lt;/h2&gt;
-
-&lt;p&gt;Bortez apparently was a software company (I can’t find any trace of them on the internet besides the chapter in this book, so this must be quite an old example) who’s main product was some sort of SDK, which basically wraps the GCC with added support for a bunch of consumer devices and made so that it could be run on windows.&lt;/p&gt;
-
-&lt;p&gt;The FSF upon hearing the first report of the violation did their best to verify, but as this was proprietary software they hit a wall and decided to wait it out for more evidence to role in from actual users.&lt;/p&gt;
-
-&lt;p&gt;Eventually a few users came forward with the results of a few tests that conclusively proved that the GCC was in fact running under the hood. When the FSF brought this to Bortez the lawyers got involved, after a long, drawn out discussion Bortez admitted to having based their product on the GCC and agreed to release most of the source to their customers. However, they disagreed with the FSF that their custom linking process that allowed the GCC to work on other consumer devices was a derivative of the GCC and refused to release it.&lt;/p&gt;
-
-&lt;p&gt;After further badgering from the FSF, Bortez agreed to perform an internal audit of the linking process software and discovered that included a few source files from the GCC. Defeated they released the whole product’s source, but only after adding a clause restricting the patent grant as much as possible with GPL’d code.&lt;/p&gt;
-
-&lt;h2 id="what-did-we-learn"&gt;What did we learn?&lt;/h2&gt;
-
-&lt;p&gt;The FSF trumpets this as a success story, even though the software and company in question no longer seem to exist. In the end we got the result (I imagine at least) we all would want users with source that they are allowed to modify. But at what cost? A lengthy legal battle and in the end a permanent ‘Compliance Officer’ inside the Bortez corporation. I realize I may be far to idealistic, but whenever a ‘free’ software project requires a Compliance Officer to maintain its status I think we have a problem. I am also troubled by the FSF’s idea of what a derivative is (which mean something more like a dependency than a modification or fork), though that will come up more detail in a later case study.&lt;/p&gt;
-
-&lt;p&gt;That said, I was impressed by the preciseness the FSF used while exercising this compliance effort: they waited until they had all the facts, gave clear guidelines on how to proceed, and maintained a focus on the community at hand and not just the idea of free as in freedom.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
     <title>Taskwarrior timesheet plugin plan</title>
     <link rel="alternate" href="http://dropofwill.herokuapp.com/2015/taskwarrior-timesheet-plugin-plan/"/>
     <id>http://dropofwill.herokuapp.com/2015/taskwarrior-timesheet-plugin-plan/</id>
@@ -1643,86 +1535,6 @@ Rtasklib::ParseConfig &amp;lt; ParseConfig
 </content>
   </entry>
   <entry>
-    <title>Patents: A comparison of Red Hat, IBM, and Google's stance on patents</title>
-    <link rel="alternate" href="http://dropofwill.herokuapp.com/2015/patents-a-comparison-of-red-hat-ibm-and-google-s-stance-on-patents/"/>
-    <id>http://dropofwill.herokuapp.com/2015/patents-a-comparison-of-red-hat-ibm-and-google-s-stance-on-patents/</id>
-    <published>2015-02-14T23:34:00-05:00</published>
-    <updated>2015-08-30T19:41:08-04:00</updated>
-    <author>
-      <name>Will Paul</name>
-    </author>
-    <content type="html">&lt;p&gt;A high level overview of the patent policies of several key players in the technology sector.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;
-
-&lt;h2 id="red-hat-statement-of-position-and-our-promise-on-software-patents"&gt;Red Hat Statement of Position and Our Promise on Software Patents&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Who:&lt;/strong&gt; &lt;a href="http://www.redhat.com/en/about/all-policies-guidelines"&gt;Red Hat’s Legal Team&lt;/a&gt;&lt;/p&gt;
-
-  &lt;p&gt;&lt;strong&gt;What:&lt;/strong&gt; Red Hat’s patent policy and a short article discussing it.&lt;/p&gt;
-
-  &lt;p&gt;&lt;strong&gt;Where:&lt;/strong&gt; &lt;a href="http://www.redhat.com/legal/patent_policy.html"&gt;The policy is on Red Hat’s website&lt;/a&gt; along with &lt;a href="https://www.redhat.com/magazine/001nov04/features/patents/"&gt;an article discussing their policy&lt;/a&gt;.&lt;/p&gt;
-
-  &lt;p&gt;&lt;strong&gt;When:&lt;/strong&gt; Copyright 2014&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id="good"&gt;Good&lt;/h3&gt;
-
-&lt;p&gt;The Red Hat focus is explicitly to protect all open source efforts, not just their own patents, they will help out smaller downstream projects that could not afford what patent or patent battles in the same way a large corporation like Red Hat can.&lt;/p&gt;
-
-&lt;h2 id="ibm-statement-of-non-assertion-of-named-patents-against-oss"&gt;IBM Statement of Non-Assertion of Named Patents Against OSS&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Who:&lt;/strong&gt; IBM’s Legal Team&lt;/p&gt;
-
-  &lt;p&gt;&lt;strong&gt;What:&lt;/strong&gt; IBM’s patent policy&lt;/p&gt;
-
-  &lt;p&gt;&lt;strong&gt;Where:&lt;/strong&gt; &lt;a href="http://www.ibm.com/ibm/licensing/patents/pledgedpatents.pdf"&gt;Available on IBM’s website&lt;/a&gt;&lt;/p&gt;
-
-  &lt;p&gt;&lt;strong&gt;When:&lt;/strong&gt; No timestamp&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id="good-1"&gt;Good&lt;/h3&gt;
-
-&lt;p&gt;It’s good that they put this in writing, apparently this used to be just a verbal agreement, but they solidified it in writing after Red Hat called them out on that.&lt;/p&gt;
-
-&lt;h3 id="bad"&gt;Bad&lt;/h3&gt;
-
-&lt;p&gt;All good an well in theory, &lt;a href="http://arstechnica.com/information-technology/2010/04/ibm-breaks-oss-patent-promise-targets-mainframe-emulator/"&gt;but what happens when they break their promises&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id="googles-open-patent-non-assertion-pledge"&gt;Google’s Open Patent Non-Assertion Pledge&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Who:&lt;/strong&gt; Google’s Legal Team&lt;/p&gt;
-
-  &lt;p&gt;&lt;strong&gt;What:&lt;/strong&gt;  Google’s patent policy&lt;/p&gt;
-
-  &lt;p&gt;&lt;strong&gt;Where:&lt;/strong&gt; &lt;a href="https://www.google.com/patents/opnpledge/pledge/"&gt;Available on Google’s website&lt;/a&gt;&lt;/p&gt;
-
-  &lt;p&gt;&lt;strong&gt;When:&lt;/strong&gt; No timestamp&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id="good-2"&gt;Good&lt;/h3&gt;
-
-&lt;p&gt;It’s cool that Google released their policy under a Creative Commons license.&lt;/p&gt;
-
-&lt;h3 id="bad-1"&gt;Bad&lt;/h3&gt;
-
-&lt;p&gt;It’s too bad this doesn’t cover all Google software patents, but just the specific ones that they list on the pledged patents page.&lt;/p&gt;
-
-&lt;h2 id="questions"&gt;Questions&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;How does the change in the way patents are registered effect Red Hat’s defensive patent collection? Now that proof you had the idea first no longer stands do they have to actually file for the patents?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id="final-thoughts"&gt;Final Thoughts&lt;/h2&gt;
-
-&lt;p&gt;Rating 1/10, patents–.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
     <title>Writing Command Line Tools with Ruby</title>
     <link rel="alternate" href="http://dropofwill.herokuapp.com/2015/commnad-line-tools-with-ruby/"/>
     <id>http://dropofwill.herokuapp.com/2015/commnad-line-tools-with-ruby/</id>
@@ -1872,102 +1684,6 @@ void lightPin(int i, int j) {
 &lt;p&gt;That was cool, but I also wanted to make something a little more interactive, so I hooked up a potentiometer to a separate 5V power source and an analog pin. From there I use the signal from the potentiometer to steer one light as it moves about the screen. In the script your able to set the speed, degrees of control, and whether it wraps or bounces off the walls. It’s kind of fun to play with, but would greatly benefit from another one or two rows of LEDs to wander about on, but as is it is a pretty cool proof of concept.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href="https://gist.github.com/dropofwill/2596fab1d9236557d862"&gt;All the code used in this project is available as a gist on my github&lt;/a&gt;.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Initial Review of Copyleft and the GNU General Public License</title>
-    <link rel="alternate" href="http://dropofwill.herokuapp.com/2015/initial-review-of-copyleft-and-the-gnu-general-public-license/"/>
-    <id>http://dropofwill.herokuapp.com/2015/initial-review-of-copyleft-and-the-gnu-general-public-license/</id>
-    <published>2015-02-06T14:57:00-05:00</published>
-    <updated>2015-08-30T19:41:08-04:00</updated>
-    <author>
-      <name>Will Paul</name>
-    </author>
-    <content type="html">&lt;p&gt;The first chapter of a comprehensive guide to how the GPL works. This first chapter explains what free software is according to the FSF and why you should care, at a community and a global level. It uses legal jargon where necessary and definitely tries to make a point while attempting to give a non-biased view of the free software landscape.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Who:&lt;/strong&gt;&lt;/p&gt;
-
-  &lt;ul&gt;
-    &lt;li&gt;
-      &lt;p&gt;&lt;a href="http://en.wikipedia.org/wiki/Bradley_M._Kuhn"&gt;Bradley M. Kuhn&lt;/a&gt; (free software activist, president of Software Freedom Conservancy, previously worked for the SFLC and FSF),&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li&gt;
-      &lt;p&gt;&lt;a href="http://www.martindale.com/Anthony-K-Sebro-Jr/2161338-lawyer.htm"&gt;Anthony K. Sebro, Jr.&lt;/a&gt; (Ggeneral counsel at the Software Freedom Conservancy),&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li&gt;
-      &lt;p&gt;&lt;a href="http://ossguy.com/?page_id=2"&gt;Denver Gingerich&lt;/a&gt; (FLOSS license compliance engineer at the Software Freedom Conservancy),&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li&gt;
-      &lt;p&gt;&lt;a href="https://www.fsf.org"&gt;Free Software Foundation&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li&gt;
-      &lt;p&gt;&lt;a href="https://softwarefreedom.org"&gt;Software Freedom Law Center&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ul&gt;
-
-  &lt;p&gt;&lt;strong&gt;What:&lt;/strong&gt; A comprehensive (we’re talking 140+ pages) guide to how the GPL works, in particular I’ve read the first chapter on entitled &lt;em&gt;What is Software Freedom?&lt;/em&gt;&lt;/p&gt;
-
-  &lt;p&gt;&lt;strong&gt;Where:&lt;/strong&gt; The whole guide is available on the &lt;a href="http://bizlegfoss-ritigm.rhcloud.com/static/books/comprehensive-gpl-guide.pdf"&gt;bizleg course web site&lt;/a&gt;&lt;/p&gt;
-
-  &lt;p&gt;&lt;strong&gt;When:&lt;/strong&gt; First version was released in 2003, but has had consistent updates from then until the latest change in 2014.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id="the-good"&gt;The Good&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Lessig’s quote about law in a free vs. closed society was a neat insight into a how lawyers think about open source. I’ve never thought about law as open source and how this effects the freedom in a society. I think this is an excellent way to introduce the concept of open source (through analogy) to someone who may be reluctant or confused about it.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;We were promised a bit more legal-ese for this reading and while yes, there were direct references to various laws and statutes (whose verbiage itself went over my head), the text as a whole wasn’t that difficult to read.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;I liked that it dove into the difficulties with Public Domain, which answered a lot of questions I’ve had with it. I looked a little further into the problem on the OSI mailing list and a lot of the problems occur in the countries of Germany, the UK, and Japan, all of which are big players in the software industry.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id="the-bad"&gt;The Bad&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;It puts forth the following argument against permissive licenses (particularly just releasing to the public domain, but it applies to all permissive licenses):&lt;/p&gt;
-
-    &lt;blockquote&gt;
-      &lt;p&gt;However, over time, some entities will choose to proprietarize their modified versions. The public domain body of software feeds the proprietary software. The public commons disappears, because fewer and fewer entities have an incentive to contribute back to the commons. They know that any of their competitors can proprietarize their enhancements. Over time, almost no interesting work is left in the public domain, because nearly all new work is done by proprietarization.&lt;/p&gt;
-    &lt;/blockquote&gt;
-
-    &lt;p&gt;This is of course a good reason to use a copyleft license, &lt;em&gt;if this is at all a likely situation&lt;/em&gt; for your project. A point that don’t even admit is a possibility. The FSF and the like often view the world of open source as a war zone, because of Stallman’s previous experiences in the 70s and 80s, but that does not necessarily reflect all Open Source communities that exist today. For example in the world of interpreted languages are open by default (as in binaries don’t exist, not necessarily free as in freedom) and even the biggest players in the industry open up their source code. So in cases like this the other restrictive problems that the GPL creates are more of an issue than they solve.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id="the-questions"&gt;The Questions&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Does GPL protect against future changes? I don’t see how it could. For example, Some large corporation forks a GPL’d project, but decides that they don’t want to license their particular changes as GPL, couldn’t they simply release the previous source code with the project, but keep their changes secret? If modifications are somehow protected by the GPL, what constitutes a ‘modification’, if I for instance abstracted these modifications out into a separate repo, does that make my modifications no longer a derivative work?&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;I still don’t really understand license compatibility. The FSF has a large list of licenses it considers compatible with the GPL, but does this mean I can fork a GPL project, make changes and release it under the simple BSD, because they are compatible licenses?&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Why are some FSF GPL compatible licenses not recognized as free software by the OSI? Are their approval processes more strict? I was looking at the OSI mailing list on CC0 process and it seems like they got hung up on a patent clause? I really can’t parse what the problem is though:&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;a. No trademark or patent rights held by Affirmer are waived, abandoned, surrendered, licensed or otherwise affected by this document.&lt;/p&gt;
-
-  &lt;p&gt;b. Affirmer offers the Work as-is and makes no representations or warranties of any kind concerning the Work, express, implied, statutory or otherwise, including without limitation warranties of title, merchantability, fitness for a particular purpose, non infringement, or the absence of latent or other defects, accuracy, or the present or absence of errors, whether or not discoverable, all to the greatest extent permissible under applicable law.&lt;/p&gt;
-
-  &lt;p&gt;c. Affirmer disclaims responsibility for clearing rights of other persons that may apply to the Work or any use thereof, including without limitation any person’s Copyright and Related Rights in the Work. Further, Affirmer disclaims responsibility for obtaining any necessary consents, permissions or other rights required for any use of the Work.&lt;/p&gt;
-
-  &lt;p&gt;d. Affirmer understands and acknowledges that Creative Commons is not a party to this document and has no duty or obligation with respect to this CC0 or use of the Work.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id="final-review"&gt;Final Review&lt;/h2&gt;
-
-&lt;p&gt;It was good, but I really would be more interested getting further into the book especially the third part where they talk about real case studies and the stuff about binary distribution and patents are things that I still don’t really have a good grasp on. Overall I thought it was a better intro than the FOSS Primer simply because it went into more detail and seemed more aware of its bias, at least from this permissive license fan’s perspective.&lt;/p&gt;
 </content>
   </entry>
   <entry>
