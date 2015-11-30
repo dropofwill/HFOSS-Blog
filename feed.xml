@@ -5,16 +5,50 @@
   <id>http://dropofwill.herokuapp.com/</id>
   <link href="http://dropofwill.herokuapp.com/"/>
   <link href="http://dropofwill.herokuapp.com/feed.xml" rel="self"/>
-  <updated>2015-09-29T21:57:00-04:00</updated>
+  <updated>2015-11-19T13:09:00-05:00</updated>
   <author>
     <name>Will Paul</name>
   </author>
+  <entry>
+    <title>Pacing and character in McConaughey’s performance in Mud</title>
+    <link rel="alternate" href="http://dropofwill.herokuapp.com/2015/pacing-and-character-in-mcconaugheys-performance-in-mud/"/>
+    <id>http://dropofwill.herokuapp.com/2015/pacing-and-character-in-mcconaugheys-performance-in-mud/</id>
+    <published>2015-11-19T13:09:00-05:00</published>
+    <updated>2015-11-29T23:12:02-05:00</updated>
+    <author>
+      <name>Will Paul</name>
+    </author>
+    <content type="html">&lt;!--
+Contrast an actor/actress from this film with an actor/actress from a previous film and how their styles complement or contrast with the context of the film.
+
+The pace of the film is the pace of Mud
+
+Intro
+Nichol's introduces us to mud in a mystical meandering way
+This causes the film to lag a bit, but intentionally so
+A stark comparison would be Nicholson's performance in One Flew over the Cuckoos Nest
+
+Though
+Visually you could hardly think of two different films, with One Flew Overs clean cut, everyone dressed in white with Mud where you can almost feel the gritty texture come right through the screen.
+--&gt;
+
+&lt;p&gt;Nichols’ &lt;em&gt;Mud&lt;/em&gt; (2013) really is a film driven by its namesake (played by McConaughey). Even though his storyline is just one of many as seen by the film’s young protagonist Ellis (played by Sheridan), this meandering tale of southern Arkansas life delivers us a narrative that parallels Mud’s own delivery, rambling, rough edges and all.&lt;/p&gt;
+
+&lt;p&gt;While McConaughey definitely steals the spotlight with his classic southern drawl and an almost tangible grit, Nichols does his part introducing him as an almost mythical figure, appearing out of nowhere by way of a camera pan (8:58) with a wry smile and wave (9:06). Nichols keeps this motif up throughout the film, Mud does not enter or leave, only appears and disappears via cut or pan. In one sense it makes him feel ethereal and in another it shows how he well he blends in with his namesake: the muddy river and its particular way of life.&lt;/p&gt;
+
+&lt;p&gt;While this does give an engaging voice to an otherwise simple story, at times it makes the film lag as scenes go on for those extra few seconds and the lines are a bit more slow and deliberate than we expect. But looking back this seems to be a conscious choice. Nichols used this to portray a different aspect of this dying way of life (hinted at by the film’s ending with the move to suburban apartment life) and also as a reaction to the Hollywood typical fast-paced cuts.&lt;/p&gt;
+
+&lt;p&gt;All in all, &lt;em&gt;Mud&lt;/em&gt; is excellent collaboration between Nichols and McConaughey (not to mention the excellent performance of the two child actors), probably the best that either have accomplished to date. My only complaint is that it wraps story up a little too neatly at the end, but maybe that too plays into Mud’s mythic narrative.&lt;/p&gt;
+
+&lt;p&gt;9/10&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Establishing narrative control in Freer's High Fidelity</title>
     <link rel="alternate" href="http://dropofwill.herokuapp.com/2015/establishing-narrative-control-in-freers-high-fidelity/"/>
     <id>http://dropofwill.herokuapp.com/2015/establishing-narrative-control-in-freers-high-fidelity/</id>
     <published>2015-09-29T21:57:00-04:00</published>
-    <updated>2015-10-12T12:44:21-04:00</updated>
+    <updated>2015-10-29T17:46:50-04:00</updated>
     <author>
       <name>Will Paul</name>
     </author>
@@ -1137,7 +1171,7 @@ Rtasklib::ParseConfig &amp;lt; ParseConfig
     <link rel="alternate" href="http://dropofwill.herokuapp.com/2015/review-of-trademarks-and-your-foss-project/"/>
     <id>http://dropofwill.herokuapp.com/2015/review-of-trademarks-and-your-foss-project/</id>
     <published>2015-02-21T15:26:00-05:00</published>
-    <updated>2015-08-30T19:41:08-04:00</updated>
+    <updated>2015-11-02T21:16:49-05:00</updated>
     <author>
       <name>Will Paul</name>
     </author>
@@ -1237,7 +1271,7 @@ Rtasklib::ParseConfig &amp;lt; ParseConfig
     <link rel="alternate" href="http://dropofwill.herokuapp.com/2015/foss-legal-primer-common-trademark-issues/"/>
     <id>http://dropofwill.herokuapp.com/2015/foss-legal-primer-common-trademark-issues/</id>
     <published>2015-02-21T14:21:00-05:00</published>
-    <updated>2015-08-30T19:41:08-04:00</updated>
+    <updated>2015-11-02T21:16:34-05:00</updated>
     <author>
       <name>Will Paul</name>
     </author>
